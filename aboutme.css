@@ -1,37 +1,25 @@
-#contain{
-	text-align: left;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
 }
-.name{
-	margin-top:5%;
-}
-body { 
-	background-image:url("https://storage.pixteller.com/designs/designs-images/2019-03-27/05/simple-background-backgrounds-passion-simple-1-5c9b95c3a34f9.png");
-     background-size:cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
- }
- html{
 
- 	height: 100%;
- }
- #contain h1{
- 	font-weight: bold;
- 	font-size: 3em;
- }
- #contain p{
- 	font-weight: bold;
- 	font-size:1.4em;
-
- }
-.row{
-	align-self: left;
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+h1 {
+    color: #007BFF; /* Blue color */
+}
+
 img {
-	
-	align-self:left;
-	height:70%;
-	width: 80%;
+    width: 100%;
+    border-radius: 50%;
 }
-.img-fluid{
-	border:3px solid pink;
-}
+
