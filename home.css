@@ -1,37 +1,51 @@
-#contain{
-	text-align: left;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
 }
-.name{
-	margin-top:5%;
-}
-body { 
-	background-image:url("https://storage.pixteller.com/designs/designs-images/2019-03-27/05/simple-background-backgrounds-passion-simple-1-5c9b95c3a34f9.png");
-     background-size:cover;
-    background-repeat: no-repeat;
-background-attachment: fixed;
- }
- html{
 
- 	height: 100%;
- }
- #contain h1{
- 	font-weight: bold;
- 	font-size: 3em;
- }
- #contain p{
- 	font-weight: bold;
- 	font-size:1.2em;
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
 
- }
-.row{
-	align-self: left;
+h1 {
+	color: #28a745; /* Green color */
 }
-img {
-	
-	align-self:left;
-	height:70%;
-	width: 80%;
+
+h2 {
+    color: #333;
 }
-.img-fluid{
-	border:3px solid pink;
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: #4A90E2; /* Blue links */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+.logos {
+    display: flex;
+   
+    /* margin: 20px 0; */
+	margin-left: 5px;
+}
+.logo {
+    width: 50px; /* Set a uniform size for logos */
+    height: auto;
+     /* Spacing between logos */
+    transition: transform 0.3s; /* Animation effect on hover */
+}
+.logo:hover {
+    transform: scale(1.1); /* Slightly enlarge the logo on hover */
 }
